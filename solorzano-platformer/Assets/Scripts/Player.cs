@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float runSpeed = 5.0f;
     [SerializeField] private float jumpSpeed = 5.0f;
     [SerializeField] private float climbSpeed = 5.0f;
+    [SerializeField] private Vector2 deathSeq = new Vector2(25f, 25f);
+
+    bool isAlive = true; 
 
     private float gravityScaleAtStart;
 
@@ -33,10 +36,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isAlive) 
+        {
+            return; 
+        }
         Run();
         FlipSprite();
         Jump();
         Climb();
+        Die();
     }
     private void Run() 
     {
@@ -72,6 +80,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             // Get new Y velocity based on a variable 
+            playerAnimator.SetTrigger("jump");
             Vector2 jumpVelocity = new Vector2(0.0f, jumpSpeed);
             playerCharacter.velocity += jumpVelocity; 
         }
@@ -101,5 +110,16 @@ public class Player : MonoBehaviour
         bool vSpeed = Mathf.Abs(playerCharacter.velocity.y) > Mathf.Epsilon;
         playerAnimator.SetBool("climb", vSpeed);
         
+    }
+
+    private void Die()
+    {
+        if (playerBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy","Hazards"))) // can add as many as you want and the same thing will happen
+        {
+            playerAnimator.SetTrigger("die"); // Not yet created
+            playerCharacter.velocity = deathSeq; // Not yet created
+
+            isAlive = false;
+        }
     }
 }

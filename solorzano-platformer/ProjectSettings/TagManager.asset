@@ -15,10 +15,10 @@ TagManager:
   - Ground
   - Player
   - Climbing
-  - 
-  - 
-  - 
-  - 
+  - Interactable
+  - Enemy
+  - Hazards
+  - PickUps
   - 
   - 
   - 
@@ -47,9 +47,21 @@ TagManager:
   - name: Foreground
     uniqueID: 4259587129
     locked: 0
+  - name: Non-Interactable
+    uniqueID: 2756401131
+    locked: 0
   - name: Climbing
     uniqueID: 1777803417
     locked: 0
+  - name: Enemy
+    uniqueID: 3209353119
+    locked: 0
+  - name: Hazards
+    uniqueID: 261717107
+    locked: 0
   - name: Player
     uniqueID: 2747060205
+    locked: 0
+  - name: PickUps
+    uniqueID: 2717100275
     locked: 0

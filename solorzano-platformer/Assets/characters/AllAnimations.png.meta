@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 122c2f494e62f1e408acafd9b6c9f5d3
+guid: a63db490a43185f4d8227cbe4e0d4dc9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -65,27 +65,14 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,11 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coin_01_0
+      name: AllAnimations_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 268
         width: 32
         height: 32
       alignment: 0
@@ -137,18 +124,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 175fdfe6a0469594481e19803b015758
-      internalID: 1120655792
+      spriteID: 0f98b923f3205d349918fad34b9eee89
+      internalID: 342148262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_1
+      name: AllAnimations_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
+        x: 48
+        y: 268
         width: 32
         height: 32
       alignment: 0
@@ -158,18 +145,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53fbfd07511e1a441a7dfbebf0ff46ed
-      internalID: 825777790
+      spriteID: e126e0a1360453b40bddf67f88289172
+      internalID: -193700779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_2
+      name: AllAnimations_2
       rect:
         serializedVersion: 2
-        x: 76
-        y: 0
+        x: 96
+        y: 268
         width: 32
         height: 32
       alignment: 0
@@ -179,18 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b31e4f5b2a906c749928a287d3e3c3e9
-      internalID: -556474211
+      spriteID: 928d09880aef9b14db7019b5d9c99aa7
+      internalID: -2023602815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_3
+      name: AllAnimations_3
       rect:
         serializedVersion: 2
-        x: 114
-        y: 0
+        x: 0
+        y: 220
         width: 32
         height: 32
       alignment: 0
@@ -200,18 +187,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af5b5cbf55a856141890e3e9d23fc34b
-      internalID: 1598296671
+      spriteID: 9d66507d4ceedee4fa2c2848eef9e5e5
+      internalID: 510069268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_4
+      name: AllAnimations_4
       rect:
         serializedVersion: 2
-        x: 152
-        y: 0
+        x: 48
+        y: 220
         width: 32
         height: 32
       alignment: 0
@@ -221,18 +208,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80f8506445955a5419403a6317b8b8cf
-      internalID: -301208312
+      spriteID: f7a9cd6a6de9e6f4eaeaf0f6ee498b82
+      internalID: 2002391277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_5
+      name: AllAnimations_5
       rect:
         serializedVersion: 2
-        x: 190
-        y: 0
+        x: 96
+        y: 220
         width: 32
         height: 32
       alignment: 0
@@ -242,18 +229,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b862dbc592f70e48b44582dc710449a
-      internalID: 920747028
+      spriteID: c97357e555c0dd44ab70d7210e6dc8c2
+      internalID: 1035591347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_6
+      name: AllAnimations_6
       rect:
         serializedVersion: 2
-        x: 228
-        y: 0
+        x: 144
+        y: 220
         width: 32
         height: 32
       alignment: 0
@@ -263,18 +250,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d77f2661605701944ba94e51196fc705
-      internalID: 1462175018
+      spriteID: 14de15dcf520a594090504c63e95f133
+      internalID: -2043179695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_7
+      name: AllAnimations_7
       rect:
         serializedVersion: 2
-        x: 266
-        y: 0
+        x: 192
+        y: 220
         width: 32
         height: 32
       alignment: 0
@@ -284,18 +271,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a94d634ee4ff51f498da8f467719c1f9
-      internalID: -1722992938
+      spriteID: c13e2ef2b5742344e9d84ef4c627b5af
+      internalID: -387847363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_8
+      name: AllAnimations_8
       rect:
         serializedVersion: 2
-        x: 304
-        y: 0
+        x: 240
+        y: 220
         width: 32
         height: 32
       alignment: 0
@@ -305,18 +292,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4d12182961260b4d914daf49711d04a
-      internalID: 683476851
+      spriteID: f97f1d98af2cf3f4191c3daf85516685
+      internalID: -1798405076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_9
+      name: AllAnimations_9
       rect:
         serializedVersion: 2
-        x: 342
-        y: 0
+        x: 0
+        y: 172
         width: 32
         height: 32
       alignment: 0
@@ -326,18 +313,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7f01ddc3868fe498acb88dab68c58b
-      internalID: 743065300
+      spriteID: e21c2afa905a0b648a922a1caac7cd5f
+      internalID: 755963541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_10
+      name: AllAnimations_10
       rect:
         serializedVersion: 2
-        x: 380
-        y: 0
+        x: 48
+        y: 172
         width: 32
         height: 32
       alignment: 0
@@ -347,18 +334,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dec8add3ecc23e4a882aaa0e040b3d2
-      internalID: -1599044487
+      spriteID: 2ebe20bc9ab6dbb44896325fff02cb11
+      internalID: -1736613528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coin_01_11
+      name: AllAnimations_11
       rect:
         serializedVersion: 2
-        x: 418
-        y: 0
+        x: 96
+        y: 172
         width: 32
         height: 32
       alignment: 0
@@ -368,8 +355,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed3be462fa2d468439d411003d1fa662
-      internalID: -905295907
+      spriteID: f4a069599887a1b498f6a07e5c45108f
+      internalID: -1182623286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllAnimations_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2942b2c2f461e14d837d78ddf7555ad
+      internalID: 505119682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllAnimations_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3af9aa932a3b1d4688303abdac78f3d
+      internalID: -1516151949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllAnimations_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e09afc12f0ab1041982687eefc35638
+      internalID: -885573951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllAnimations_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85fe26a7f92b904e9aa609971345163
+      internalID: -1905166737
       vertices: []
       indices: 
       edges: []
@@ -385,18 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      coin_01_0: 1120655792
-      coin_01_1: 825777790
-      coin_01_10: -1599044487
-      coin_01_11: -905295907
-      coin_01_2: -556474211
-      coin_01_3: 1598296671
-      coin_01_4: -301208312
-      coin_01_5: 920747028
-      coin_01_6: 1462175018
-      coin_01_7: -1722992938
-      coin_01_8: 683476851
-      coin_01_9: 743065300
+      AllAnimations_0: 342148262
+      AllAnimations_1: -193700779
+      AllAnimations_10: -1736613528
+      AllAnimations_11: -1182623286
+      AllAnimations_12: 505119682
+      AllAnimations_13: -1516151949
+      AllAnimations_14: -885573951
+      AllAnimations_15: -1905166737
+      AllAnimations_2: -2023602815
+      AllAnimations_3: 510069268
+      AllAnimations_4: 2002391277
+      AllAnimations_5: 1035591347
+      AllAnimations_6: -2043179695
+      AllAnimations_7: -387847363
+      AllAnimations_8: -1798405076
+      AllAnimations_9: 755963541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

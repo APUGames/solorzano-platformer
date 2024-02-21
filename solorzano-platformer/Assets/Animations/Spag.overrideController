@@ -8,4 +8,14 @@ AnimatorOverrideController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Spag
   m_Controller: {fileID: 9100000, guid: fd851a0ce45c46449a2c3e56da3ea615, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 403874708fccb0a4988c193be0ab5e8c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a1b9b9c57ada0aa489c841826b285157, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 41e7753347a3bfe408ead798688bac38, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 770e079265a43b1438dec5312d3ae408, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 884f359ac9319f7438cbf0fd39445afa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d7a7d3617d235014081183ee128286ab, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6f3feb4a5910bc646a91958dd30c0c34, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 770e079265a43b1438dec5312d3ae408, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bc4218d96c4719f4db0d60b05e97562f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bc4218d96c4719f4db0d60b05e97562f, type: 2}
